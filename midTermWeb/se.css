@@ -1,0 +1,128 @@
+/*
+	name : Seon Namkung, ID : 2013042776, year : 3
+*/
+
+/* specification 2a (write appropriate selector) */
+@font-face{
+	font-family: 'prime';
+	src: url("font/primer.otf");
+}
+
+
+
+
+/* specification 2a & 2b */
+body {
+	font-family: prime;
+	background-color: #00ABD9;
+}
+
+/* specification 3a & 3b */
+#page {
+	width: 950px;
+	margin : auto;
+	background-color: white;
+	border-bottom: 5px solid black;
+}
+
+
+
+
+
+
+/* specification 4a 4b (write appropriate selector) */
+nav ul{
+	text-align: center;
+
+}
+
+nav li{
+	list-style-type: none;
+	display: inline;
+}
+nav a{
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+/* specification 4a 4c (write appropriate selector) */
+nav{
+	line-height: 2em;
+	background-color: black;
+}
+
+ul li{
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+}
+
+
+/* specification 4b (write appropriate selector) */
+nav li a{
+		color : #A690AF;
+}
+
+
+
+
+/* specification 5a (write appropriate selector) */
+article{
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+
+
+
+/* specification 5b (write appropriate selector) */
+article h2{
+	text-decoration:underline;
+	color : #00ABD9;
+}
+
+
+
+
+/* specification 6 */
+.mid {
+	text-align: center;
+}
+
+
+
+/* specification 7a, 7b, 7c, 7d, and 7e */
+#joinSE {
+	float: right;
+	background-color: #8BCBE3;
+	padding : 0.75em;
+	margin : 1em;
+}
+
+#joinSE a{
+	font-weight: bold;
+	font-size: 190%;
+}
+
+
+
+
+
+
+
+/* extra mark :
+ * examine 'screenshot.png' and find out which style is still not specified in CSS
+ * & create and apply an associated rule */
+
+ strong{
+	 text-decoration: underline;
+ }
+
+body #joinSE{
+	margin-top : 30px;
+}

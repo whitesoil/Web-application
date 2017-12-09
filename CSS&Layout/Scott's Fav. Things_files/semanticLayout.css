@@ -1,0 +1,63 @@
+
+
+.topic{
+  border-bottom: 2px blue;
+  border-bottom-style: dashed;
+
+}
+
+
+section {
+  border: 4px solid #1D2475;
+  background-color: #99ccff;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: justify;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+section *:hover{
+  background-color: #A6CE39;
+}
+
+section img{
+  float: right;
+}
+
+article{
+  overflow: hidden;
+}
+
+#body{
+  background-image: url(./blueTextureBG.jpg);
+}
+
+#innerbody{
+  border: 10px solid white;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header{
+  color:white;
+  text-align: right;
+  background-color: #1D2475;
+}
+
+aside{
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-right: 5px;
+  text-align: left;
+  border: 4px solid #1D2475;
+  float: left;
+  background-color: #3366cc;
+  width: 150px;
+}
+
+#theme{
+  font-size: 14pt;
+  color: #cccccc;
+}
